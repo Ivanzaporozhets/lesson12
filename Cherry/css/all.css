@@ -1,0 +1,138 @@
+body {
+  font: 14px/20px arial, sans-serif;
+  min-width: 980px;
+  background-image: url(../image/bg-body.png);
+  color: #5c646e;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #ff1744;
+}
+a:hover {
+  text-decoration: none;
+}
+.header-wrapper {
+  background: url(../image/firsimg.png) repeat-x;
+  height: 72px;
+  margin-bottom: -2px;
+}
+.header {
+  width: 980px;
+  margin: auto;
+  padding: 18px 0 0 8px;
+}
+.header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.header h1::first-letter,
+h2::first-letter {
+  color: #ff1744;
+}
+.header h1 span {
+  color: #c9c7c7;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+}
+.content {
+  width: 980px;
+  margin: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.nav {
+  background: #ff1744;
+  overflow: hidden;
+  padding: 11px 0px 11px 31px;
+  margin-bottom: 1px;
+}
+.nav a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav li {
+  float: left;
+  padding-right: 58px;
+}
+.header h1 span {
+  text-transform: none;
+}
+.intro {
+  background-image: url(../image/intro-img.jpg);
+  height: 240px;
+  padding: 43px 450px 0 26px;
+  color: #c9c7c7;
+  line-height: 18px;
+  margin-bottom: 45px;
+}
+.intro h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+.intro h2 span {
+  display: block;
+  font-size: 18px;
+  color: #c9c7c7;
+}
+.intro h3 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 6px;
+}
+.intro p {
+  margin-bottom: 20px;
+}
+.data-wrapper {
+  padding: 0 28px;
+}
+.data-wrapper h3 {
+  color: #282d33;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sidebar {
+  width: 215px;
+  float: left;
+}
+.sidebar h3 {
+  padding: 29px 0 18px;
+}
+.sidebar p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #5c646e;
+  padding-bottom: 35px;
+}
+.data {
+  width: 700px;
+  float: right;
+}
+.data h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a5adb8;
+  padding-bottom: 21px;
+}
+.data p {
+  line-height: 21px;
+}
+ul.img li {
+  float: left;
+  padding: 21px 13px 0 0;
+}
+ul.img a {
+  display: block;
+  padding: 19px 0 28px;
+}
